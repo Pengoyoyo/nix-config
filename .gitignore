@@ -1,0 +1,15 @@
+# Nix build outputs
+result
+result-*
+
+# direnv
+.direnv/
+.envrc.local
+
+# Editor-Kram
+*.swp
+*~
+.vscode/
+.idea/
+
+# NICHT ignorieren: flake.lock gehört ins Repo.
